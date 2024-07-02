@@ -6,7 +6,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/gocql/gocql"
-	"github.com/srivalli123125/Todo-Space/internal/app/models"
+	"github.com/srivalli123125/Todo-Space/internal/app/api"
 )
 
 func (api *TodoAPI) CreateTodoHandler() gin.HandlerFunc {
