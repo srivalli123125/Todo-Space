@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  scylla:
+    image: scylladb/scylla
+    container_name: scylla-db
+    ports:
+      - "9042:9042"
+    environment:
+      - SCYLLA_NO_SSTABLE_ACTIVITY=1
