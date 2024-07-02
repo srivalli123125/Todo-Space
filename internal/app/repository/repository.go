@@ -2,7 +2,7 @@ package repository
 
 import (
 	"github.com/gocql/gocql"
-	"github.com/srivalli123125/Todo-Space/internal/app/models"
+	"github.com/srivalli123125/Todo-Space/internal/app/repository"
 )
 
 type TodoRepository interface {
